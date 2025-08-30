@@ -1,0 +1,35 @@
+# macOS / IDE
+.DS_Store
+.idea/
+.vscode/
+
+# Env
+.env
+
+# Bitrix core and runtime
+www/bitrix/
+www/upload/
+www/bitrix/backup/
+www/bitrix/cache/
+www/bitrix/managed_cache/
+www/bitrix/stack_cache/
+www/bitrix/html_pages/
+www/bitrix/updates/
+www/bitrix/tmp/
+www/bitrix/otp/
+
+# Secrets
+www/bitrix/.settings.php
+www/bitrix/php_interface/dbconn.php
+www/local/php_interface/dbconn.php
+
+# Installers
+www/bitrixsetup.php
+www/bitrixsetup.update
+
+# Logs/temp
+**/*.log
+www/bitrix/site_checker_*.log
+www/upload/tmp/
+
+
